@@ -1,10 +1,8 @@
-import { Model } from "sequelize";
+import { Record } from "./record.interface";
 
-export interface User {
+export interface UserInterface extends Record{
   id: number;
-  user_name: string;
-  email: string;
+  name: string;
   record_status: number;
 }
 
-export interface UserInstance extends Model<User>, User {}

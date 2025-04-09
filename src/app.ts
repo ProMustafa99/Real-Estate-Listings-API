@@ -1,5 +1,6 @@
 import express from "express";
 import { Routes } from "./interfaces/router.interface";
+import { DB } from "./database/database";
 // import cors from 'cors';
 
 export class App {
@@ -12,7 +13,7 @@ export class App {
     this.env = "development";
     this.port = 3000;
 
-    // this.connectToDatabase();
+    this.connectToDatabase();
     this.initializeMiddlewares();
     this.initializeRoutes(routes);
     // this.initializeSwagger();
@@ -31,6 +32,10 @@ export class App {
   private initializeMiddlewares(): void {
     this.app.use(express.json());
     // this.app.use(cors({ origin: 'http://localhost:5173', credentials: CREDENTIALS }));
+  }
+
+  private  connectToDatabase() {
+     DB.sequelize.sync({ force: false });
   }
 
   private initializeRoutes(routes: Routes[]) {

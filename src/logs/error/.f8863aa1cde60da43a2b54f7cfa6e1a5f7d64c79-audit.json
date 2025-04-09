@@ -1,0 +1,150 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/home/mustafa/myapp2/src/logs/error/.f8863aa1cde60da43a2b54f7cfa6e1a5f7d64c79-audit.json",
+    "files": [
+        {
+            "date": 1733905419624,
+            "name": "/home/mustafa/myapp2/src/logs/error/2024-12-11.log",
+            "hash": "09be7eb923a1b74c4b30007b4066a4b031571d560040b8c956fbcb0efc85bc8a"
+        },
+        {
+            "date": 1733983078543,
+            "name": "/home/mustafa/myapp2/src/logs/error/2024-12-12.log",
+            "hash": "cb800a34200569886563f4ed1291bb17610f27692174dc94a98fa97c72720a27"
+        },
+        {
+            "date": 1734247135096,
+            "name": "/home/mustafa/myapp2/src/logs/error/2024-12-15.log",
+            "hash": "fe3d6ca3af68b35e506861e32a4f914a7256e9d51ecefeda8c127d45dd6cb466"
+        },
+        {
+            "date": 1734342357395,
+            "name": "/home/mustafa/myapp2/src/logs/error/2024-12-16.log",
+            "hash": "c21db26f073e3c73d94508cf9b3e3d37e3ab591ac99acc0bfc3672cf32168b4c"
+        },
+        {
+            "date": 1734415784999,
+            "name": "/home/mustafa/myapp2/src/logs/error/2024-12-17.log",
+            "hash": "49039388c8f0368496a8ba592013894f332361e132c710964668b4f55e81f417"
+        },
+        {
+            "date": 1734502891460,
+            "name": "/home/mustafa/myapp2/src/logs/error/2024-12-18.log",
+            "hash": "2898eb51d34e05ee4340b3d0448c89600b1989e7e0c97acd56cae096c46b4f10"
+        },
+        {
+            "date": 1734866703678,
+            "name": "/home/mustafa/myapp2/src/logs/error/2024-12-22.log",
+            "hash": "bbf475931aa3d4e6c93b09cc4e1bfbe04f34a70740dedeb81fa3f11210be9b4c"
+        },
+        {
+            "date": 1734934620674,
+            "name": "/home/mustafa/myapp2/src/logs/error/2024-12-23.log",
+            "hash": "214b4dc38b5510c5e57e8812bab748c1fb0024dae84bae1fe7973400c3bc7d41"
+        },
+        {
+            "date": 1735022240961,
+            "name": "/home/mustafa/myapp2/src/logs/error/2024-12-24.log",
+            "hash": "bf9325d32192e1971ebd0e6a40455b709bf214c5e1703d1b0a9cd00e7945013e"
+        },
+        {
+            "date": 1735193479731,
+            "name": "/home/mustafa/myapp2/src/logs/error/2024-12-26.log",
+            "hash": "5be5c22af1234a0419b472ceb3b448c1ca82e4cee422e9e4e23a02504bbc69e1"
+        },
+        {
+            "date": 1735541149578,
+            "name": "/home/mustafa/myapp2/src/logs/error/2024-12-30.log",
+            "hash": "fa09be659dd093b6e3beb5a5b6b111c7edba3cbb66479a32d7660f3ea2d7f8dc"
+        },
+        {
+            "date": 1735627922228,
+            "name": "/home/mustafa/myapp2/src/logs/error/2024-12-31.log",
+            "hash": "cc083cd4ae6608ccb0df3a3452e561863c0eff417ff0d678c718530d92483e69"
+        },
+        {
+            "date": 1736258311770,
+            "name": "/home/mustafa/myapp2/src/logs/error/2025-01-07.log",
+            "hash": "acfcde32c888b75ae32b2045f934511c2b82c7a007f7b4e3e4cf11030f6b5abd"
+        },
+        {
+            "date": 1737883239846,
+            "name": "/home/mustafa/myapp2/src/logs/error/2025-01-26.log",
+            "hash": "67421a17138b13eee8d36b1f1b0d2257208c41a95bc3ed7e200825f9f2896811"
+        },
+        {
+            "date": 1737959053036,
+            "name": "/home/mustafa/myapp2/src/logs/error/2025-01-27.log",
+            "hash": "183ea1c8175421881d4ccc9a9d81a8eae860271e437e028d298fb7e075ff02da"
+        },
+        {
+            "date": 1738047487896,
+            "name": "/home/mustafa/myapp2/src/logs/error/2025-01-28.log",
+            "hash": "12177f2dc433f6b421192e8ff9079b613d02bb9337044ceaab9fbaefb48b6741"
+        },
+        {
+            "date": 1738134424418,
+            "name": "/home/mustafa/myapp2/src/logs/error/2025-01-29.log",
+            "hash": "291448ce9e536455f6c02ab65bf5593822aea8227dc4a54a2bc9205004ed99f6"
+        },
+        {
+            "date": 1738220775225,
+            "name": "/home/mustafa/myapp2/src/logs/error/2025-01-30.log",
+            "hash": "caacabe0b019cc20c3867f5bf2b7b9e8b042536859f5ddd6150f510661583372"
+        },
+        {
+            "date": 1738570685475,
+            "name": "/home/mustafa/myapp2/src/logs/error/2025-02-03.log",
+            "hash": "3dc78df478be0915d0d9f4d5a0d266a190a90d208415e64cd92e94166b2900cd"
+        },
+        {
+            "date": 1738651606082,
+            "name": "/home/mustafa/myapp2/src/logs/error/2025-02-04.log",
+            "hash": "2477d95204dcfd2f298cd992d684392f4c9e44354a8db564919afdccf3b66e7f"
+        },
+        {
+            "date": 1738737441572,
+            "name": "/home/mustafa/myapp2/src/logs/error/2025-02-05.log",
+            "hash": "d9d699f75e95ccfc9407d0c3a8a252ed9d310e9944a6d4ad3192e840d9acb2d8"
+        },
+        {
+            "date": 1738822950320,
+            "name": "/home/mustafa/myapp2/src/logs/error/2025-02-06.log",
+            "hash": "568eb65d438e2f479ab5badf56f62404120c352f74438489f4c69ad6fddfb3b6"
+        },
+        {
+            "date": 1739083584608,
+            "name": "/home/mustafa/myapp2/src/logs/error/2025-02-09.log",
+            "hash": "b3acd6888c1c3ebd044348517f8afb6bb5bf03b64e8c66868f05d65ace540138"
+        },
+        {
+            "date": 1739170163146,
+            "name": "/home/mustafa/myapp2/src/logs/error/2025-02-10.log",
+            "hash": "32652aa83ccd5869ab5d5c81c27b44bc1a5a05beb9d977c3a8d0ff04aac82d7a"
+        },
+        {
+            "date": 1739256788314,
+            "name": "/home/mustafa/myapp2/src/logs/error/2025-02-11.log",
+            "hash": "88173a55abc5f96105baebbdd927b0e06923cbda206771524fe464f8a933f1d9"
+        },
+        {
+            "date": 1739342094612,
+            "name": "/home/mustafa/myapp2/src/logs/error/2025-02-12.log",
+            "hash": "7324610a84dc9c89cc95ac5c1554771cff7ae4e421703daf612ca3d7afe02670"
+        },
+        {
+            "date": 1739428149291,
+            "name": "/home/mustafa/myapp2/src/logs/error/2025-02-13.log",
+            "hash": "ed6bce7075ab5dc52af3988a41cc0a7ae27c3260436af4b6a030fe37418bad5d"
+        },
+        {
+            "date": 1739482114714,
+            "name": "/home/mustafa/myapp2/src/logs/error/2025-02-14.log",
+            "hash": "d15a384ef7a04a0ff89abaaa169dc177f02c6e0ce8d8dc9504eadf5bdfd60225"
+        }
+    ],
+    "hashType": "sha256"
+}

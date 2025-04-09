@@ -1,27 +1,26 @@
 import Sequelize from "sequelize";
-import  BlogModel  from "../models/blog.model";
-import  CommentModel  from "../models/comments.model";
+import RealEstatModel from "../models/realestate.model";
+import UserModel from "../models/user.model";
+import { DB_DATABASE, DB_HOST, DB_PASSWORD, DB_USER } from "../config";
+import  CityModel  from "../models/city.model";
+import  TypeModel  from "../models/type.model";
 
-
-// we Need to create the .env file
-const sequelize = new Sequelize.Sequelize({
+export const sequelize = new Sequelize.Sequelize({
   dialect: "mysql",
-  host: "localhost",
-  port: 3306, // Change from 3000 to 3306
-  username: "root",
-  password: "root",
-  database: "task3",
-  logging: false, // This is fine for now; you can enable it if you need to debug
+  host: DB_HOST,
+  port: 3306,
+  username: DB_USER,
+  password: DB_PASSWORD,
+  database: DB_DATABASE,
 });
-
 
 sequelize.authenticate();
 
 export const DB = {
-  Blog: BlogModel(sequelize),
-  Commints:CommentModel(sequelize),
+  Estate: RealEstatModel(sequelize),
+  User: UserModel(sequelize),
+  City : CityModel(sequelize),
+  Type : TypeModel(sequelize),
   sequelize,
   Sequelize,
 };
-
-

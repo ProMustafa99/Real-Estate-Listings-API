@@ -1,8 +1,8 @@
 import { App } from "./app";
-import { CommentsRoute } from "./route/comments.route";
 import "reflect-metadata";
+import { realEstateRoute } from "./route/realestate.route";
 
 
-const app = new App([new CommentsRoute]);
+const app = new App([new realEstateRoute()]);
 
 app.listen();

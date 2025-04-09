@@ -11,9 +11,6 @@ A simple Node.js backend API to manage real estate listings using Express.js.
 
 
 
-## clone Project
-git@github.com:ProMustafa99/Real-Estate-Listings-API.git
-
 ## 📦 Installation and Run Server
   - install Node.js and npm 
   - npm install

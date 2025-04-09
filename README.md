@@ -36,10 +36,10 @@ Include a sample .env setup so users know what variables are required.
 
 
 ## API Route 
-/realestate	        Get all real estate listings (with pagination)
-/realestate	        Create a new real estate listing
-/realestate/:id	    Update a real estate listing by ID
-/realestate/:id	    Soft delete a real estate listing by ID
+ -  /realestate	        Get all real estate listings (with pagination)
+ - /realestate	        Create a new real estate listing
+ - /realestate/:id	    Update a real estate listing by ID
+ - /realestate/:id	    Soft delete a real estate listing by ID
 
 ## Test API Use Postman
 - GET       http://localhost:PORT/realestate

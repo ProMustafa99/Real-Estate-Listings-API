@@ -10,6 +10,10 @@ A simple Node.js backend API to manage real estate listings using Express.js.
 - Environment-based config with `.env`
 
 
+
+## clone Project
+git@github.com:ProMustafa99/Real-Estate-Listings-API.git
+
 ## 📦 Installation and Run Server
   - install Node.js and npm 
   - npm install
@@ -42,7 +46,8 @@ Include a sample .env setup so users know what variables are required.
  - /realestate/:id	    Soft delete a real estate listing by ID
 
 ## Test API Use Postman
-- GET       http://localhost:PORT/realestate
+- GET       http://localhost:PORT/realestate OR   
+- GET       http://localhost:PORT//realestate?cityId=1&typeId=2&minPrice=50000&maxPrice=200000
 - POST      http://localhost:PORT/realestate 
 - DELETE    http://localhost:PORT/realestate/1
 - PATCH     http://localhost:PORT/realestate/1
